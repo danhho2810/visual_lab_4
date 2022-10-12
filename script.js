@@ -34,7 +34,7 @@ d3.csv("wealth-health-2014.csv", d3.autoType).then((data) => {
 	let rScale = d3
         .scaleLinear()
         .domain(d3.extent(data.map((d) => d.Population)))
-        .range([4, 15]);
+        .range([4, 25]);
 
     const yAxis = d3.axisLeft().scale(yScale);
 	const xAxis = d3.axisBottom().scale(xScale).ticks(5, "s");
