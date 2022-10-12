@@ -1,5 +1,3 @@
-import * as d3 from "https://unpkg.com/d3?module";
-
 // Margin convention:
 const margin = { top: 20, right: 20, bottom: 20, left: 20 };
 const width = 650 - margin.left - margin.right,
